@@ -5,3 +5,7 @@ N2 = float(input('nota2'));
 print ('ingrese la nota del primer parcial');
 N3 = float(input('nota3'));
 
+P=int(N1+N2+N3)\3);
+
+print('P');
+
