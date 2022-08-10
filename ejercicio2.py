@@ -1,11 +1,16 @@
-print ('ingrese la nota del primer parcial');
-N1 = float(input('nota1'));
-print ('ingrese la nota del primer parcial');
-N2 = float(input('nota2'));
-print ('ingrese la nota del primer parcial');
-N3 = float(input('nota3'));
+print("----------------------------------")
+print("ejercicio2 promedio de notas")
+print("----------------------------------")
 
-P=int(N1+N2+N3)\3);
+#entradas 
+print("ingrese las notas del alumno n1, n2 y n3") 
+n1= int(input("n1: "))
+n2= int(input("n2: "))
+n3= int(input("n3: "))
 
-print('P');
+#proceso
+p=int((n1+n2+n3)/3)
 
+#salida
+print("el promedio d notas del alumno es: ")
+print(p)
