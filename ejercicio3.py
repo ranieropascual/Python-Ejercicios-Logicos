@@ -1,6 +1,6 @@
-print("-----------------------------")
+print("----------------------------------------------------")
 print("ejercicio3 puntaje final")
-print("-----------------------------")
+print("----------------------------------------------------")
 
 #entradas
 print("ingrese el numero de respuestas correctas")
