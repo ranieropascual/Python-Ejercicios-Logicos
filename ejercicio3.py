@@ -1,14 +1,23 @@
-print ('ingrese numero de respuestas correctas');
-RC = int( input())
-print ('ingrese numero de respuestas incorrectas');
-RI = int( input())
-print ('ingrese numero de respuestas en blanco');
-RB = int( input())
+print("-----------------------------")
+print("ejercicio3 puntaje final")
+print("-----------------------------")
 
-# proceso
-PCR = RC*3
-PRI = RI*-1
-PRB = RB*0
+#entradas
+print("ingrese el numero de respuestas correctas")
+RC=int(input())
+print("ingrese el numero de respuestas incorrectas")
+RI=int(input())
+print("ingrese el numero de respuestas en blanco")
+RB=int(input())
 
-PF = PCR+PRI+PRB
-print('elpuntaje total es:',PF)
+#proceso
+PCR=RC*3
+PRI=RI*-1
+PRB=RB*0
+
+PF=PCR+PRI+PRB
+
+#salida
+print("el puntaje total es: ",PF)
+
+
