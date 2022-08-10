@@ -1,11 +1,18 @@
-from asyncore import read
-from turtle import distance
+from re import T
 
 
-print ('ingrese la velocidad y el tiempo de la unidad');
-V = float(input('velocidad'));
-T = float(input('tiempo'));
+print ("------------------------------------")
+print ("ejercicio1 CALCULAR DISTANCIA")
+print ("------------------------------------")
 
-D = V*T;
+#entradas
+print("ingrese la velocidad y el tiempo de la unidad movil")
+#convirtiendo entrada en entero
+V=float(input("velocidad: "))
+T=float(input("tiempo: "))
 
-print(D);
+#proceso
+D=V*T
+
+#salida
+print(D)
